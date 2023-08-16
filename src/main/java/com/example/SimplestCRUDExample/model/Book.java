@@ -11,6 +11,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 @ToString
+@Builder
 public class Book {
 
     @Id
